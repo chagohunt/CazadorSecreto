@@ -1,0 +1,35 @@
+# Mensajes del plugin Cazador Secreto
+
+commands:
+  no_permission: "&cNo tienes permiso para ejecutar este comando"
+  unknown_command: "&cComando desconocido. Usa /cazador help"
+  join: "&a¡Te has unido al lobby del Cazador Secreto!"
+  leave: "&cHas abandonado el lobby"
+  reload: "&aConfiguración recargada correctamente"
+
+game:
+  starting: "&e¡La partida comenzará en 10 segundos!"
+  started: "&a¡La partida ha comenzado!"
+  stopped: "&cLa partida ha sido detenida"
+  force_stopped: "&cLa partida ha sido forzada a terminar por un administrador"
+  time_left: "&eTiempo restante: &6%ds"
+  round_start: "&6¡Ronda &e%d&6/&e%d &6iniciada!"
+
+errors:
+  not_in_game: "&cNo estás en una partida activa"
+  game_running: "&cYa hay una partida en curso"
+  not_enough_players: "&cSe necesitan al menos 2 jugadores para empezar"
+
+scoreboard:
+  title: "&6&lCazador Secreto"
+  round: "&eRonda: &a%d/%d"
+  time: "&eTiempo: &a%02d:%02d"
+  players: "&eJugadores: &a%d"
+  points: "&ePuntos: &a%d"
+
+npcs:
+  hit_penalty: "&c¡Penalización! Has perdido 1 corazón por golpear a un NPC"
+
+lobby:
+  waiting: "&eEsperando jugadores..."
+  countdown: "&eLa partida comenzará cuando haya al menos 2 jugadores"

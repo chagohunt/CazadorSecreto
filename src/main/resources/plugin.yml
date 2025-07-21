@@ -1,0 +1,28 @@
+name: CazadorSecreto
+main: com.cazadorsecreto.CazadorSecreto
+version: 1.0.1
+api-version: 1.21
+authors: [Chago]
+description: "Un emocionante modo de juego de cazadores secretos en Minecraft"
+website: " "
+prefix: "Cazador"
+
+# Configuración de comandos principales
+commands:
+  cazador:
+    description: Comando principal del plugin
+    usage: /cazador <subcomando>
+    aliases: [cs]
+    permission: cazador.use
+    permission-message: "&cNo tienes permiso para usar este comando"
+
+permissions:
+  cazador.use:
+    description: Permiso para usar comandos basicos
+    default: true
+  cazador.admin:
+    description: Permiso para comandos de administracion
+    default: op
+
+depend:
+  - Citizens

@@ -1,0 +1,35 @@
+# Configuración del juego Cazador Secreto
+
+game-settings:
+  duration: 300 # Duración de la partida en segundos (5 minutos)
+  max-rounds: 5 # Máximo de rondas por partida
+  min-players: 2 # Mínimo de jugadores para iniciar
+
+lobby:
+  world: world
+  x: 0.5
+  y: 64.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+
+arena:
+  pos1:
+    world: world
+    x: -50
+    y: 0
+    z: -50
+  pos2:
+    world: world
+    x: 50
+    y: 100
+    z: 50
+
+npc-settings:
+  spawn-count: 20 # Cantidad de NPCs a generar
+  movement-interval: 10 # Intervalo de movimiento en segundos
+
+player-settings:
+  max-health: 8 # 4 corazones (8 medios corazones)
+  disable-hunger: true
+  disable-fall-damage: true
